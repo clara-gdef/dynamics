@@ -1,0 +1,18 @@
+datadir: /local/gainondefor/work/lip6/data/dynamics
+prevdatadir: /local/gainondefor/work/lip6/data/companies
+gpudatadir: /local/gainondefor/work/data
+# modeldir: /net/big/gainondefor/work/trained_models/companies/
+modeldir: /data/gainondefor/dynamics/
+rep:
+  ft:
+    total: reps/ft_emb/30_latest_clus_cie_per_skills
+  sk:
+    total: reps/skills/30_clus_latest_ppl_as_bin_skills
+  cie: cie_rep_
+  clus: clus_rep_
+  dpt: dpt_rep_
+lookup:
+  ppl: lookup_ppl.pkl
+  cie: lookup_cie.pkl
+  clus: lookup_clus.pkl
+  dpt: lookup_dpt.pkl
